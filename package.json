@@ -1,11 +1,7 @@
 {
-  "name": "elkjs",
-  "version": "0.7.0",
-  "author": {
-    "name": "Ulf Rüegg",
-    "email": "uruurumail@gmail.com"
-  },
-  "description": "Automatic graph layout based on Sugiyama's algorithm. Specialized for data flow diagrams and ports.",
+  "name": "tmp-elk-fork",
+  "version": "0.8.0",
+  "description": "Fork of elkjs partially anticipating release 0.8.0 thereof",
   "main": "lib/main",
   "types": "lib/main",
   "files": [
@@ -13,15 +9,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/kieler/elkjs.git"
+    "url": "https://github.com/alpinemath/tmp-elk-fork.git"
   },
-  "keywords": [
-    "graph",
-    "layout",
-    "layered",
-    "ports",
-    "dataflow"
-  ],
   "license": "EPL-1.0",
   "scripts": {
     "test": "mocha test/mocha",
